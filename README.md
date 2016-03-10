@@ -4,7 +4,7 @@ P.Lewis UCL/NCEO
 
 # Contents
 
-- [Download and sort data](notebooks/Get%20data.ipynb)
+- [Download and sort data](https://github.com/UCL-EO/QA4ECV_ATBD/tree/master/notebooks/Get%20data.ipynb)
 
 In this section, we download the test dataset from the server as a set of `netcdf` files and harmonise most of the labelling across datasets. We also perform narrow to broadband conversion on the MODIS datasets, apply QA masks and do any scaling. 
 
@@ -37,7 +37,7 @@ and a set of `s2.0` files containing the masked and organised datasets.
     notebooks/obj/prior.v2.snownosnow_s2.0_.pkl
 
 
-- [Load data and and prepare constraint matrices](notebooks/Load%20data.ipynb)
+- [Load data and and prepare constraint matrices](https://github.com/UCL-EO/QA4ECV_ATBD/tree/master/notebooks/Load%20data.ipynb)
 
 This section reads the data from the `s2.0` files and organises into `s3.0` files, with the data organised as matrices:
 
