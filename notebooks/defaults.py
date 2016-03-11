@@ -23,6 +23,8 @@ import kernels
 import datetime
 from datetime import date,timedelta
 import scipy.sparse
+import scipy.stats
+
 
 def ensure_dir(f):
     d = os.path.dirname(f)
